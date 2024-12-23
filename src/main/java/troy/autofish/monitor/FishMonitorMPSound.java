@@ -40,7 +40,7 @@ public class FishMonitorMPSound implements FishMonitorMP {
                 return;
             }
 
-            if (soundName.equalsIgnoreCase("minecraft:entity.fishing_bobber.splash") || soundName.equalsIgnoreCase("entity.fishing_bobber.splash")) {
+            if (soundName.equalsIgnoreCase("entity.fishing_bobber.splash") || soundName.equalsIgnoreCase("minecraft:entity.fishing_bobber.splash")) {
                 if(minecraft.player != null) {
                     FishingBobberEntity hook = minecraft.player.fishHook;
                     if (hook != null) {
